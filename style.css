@@ -5,12 +5,16 @@
   padding: 0rem;
 }
 
+:root{
+  --background-color: #F7F9FC;
+}
+
 html{
-  font-size: 58.5%;
+  font-size: 62.5%;
 }
 
 body {
-  background-color: #F7F9FC;
+  background-color: var(--background-color);
   color: rgb(57, 62, 70);
   font-family: 'Lora', serif;
   font-size: 2rem;
