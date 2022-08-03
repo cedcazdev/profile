@@ -1,18 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:wght@300;400;500;600;700;800;900&display=swap");
+
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+html{
+  font-size: 58.5%;
 }
 
 body {
   background-color: #F7F9FC;
   color: rgb(57, 62, 70);
   font-family: 'Lora', serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: lighter;
 }
 
 .margin-bottom{
-  margin-bottom: 15px;
+  margin-bottom: 2.5rem;
 }
 
 h1, h2, a {
@@ -20,23 +26,31 @@ h1, h2, a {
 }
 
 h1 {
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   color: rgb(31, 33, 38);
-  font-size: 32px;
+  font-size: 2.8rem;
   font-weight: 900;
 }
 
 
 h2 {
-  font-size: 24px;
+  font-size: 2.2rem;
   font-weight: 500;
+}
+
+p{
+  font-size: 1.8rem;
+}
+
+div .text-justify-about-me{
+  text-align: justify;
 }
 
 a {
   text-decoration: none;
-  color: #4700D8;
+  color: #3ABD9A;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.8rem;
   transition: color 0.3s ease;
 }
 
@@ -49,47 +63,46 @@ a:hover {
 }
 
 .container {
-  width: 710px;
-  margin: 40px auto;
+  width: 71rem;
+  margin: 4rem auto;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 96rem) {
 /* For a screen < 960px, this CSS will be read */
 .container {
-  width: 700px;
+  width: 70rem;
 }
 }
-@media (max-width: 720px) {
+@media (max-width: 72rem) {
 /* For a screen < 720px, this CSS will be read */
 .container {
-  width: 500px;
+  width: 50rem;
 }
 }
-@media (max-width: 540px) {
+@media (max-width: 54rem) {
 /* For a screen < 540px, this CSS will be read */
 .container {
-  width: 300px;
+  width: 30rem;
 }
 }
 
 .img-circle {
-  width: 125px;
-  height: 125px;
+  width: 12rem;
   border-radius: 50%;
 }
 
 .card-white {
   background-color: #ffffff;
-  margin: 20px auto;
-  padding: 40px;
-  border-radius: 5px;
+  margin: 2rem auto;
+  padding: 4rem;
+  border-radius: 0.5rem;
   text-align: center;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 i {
-font-size: 30px;
-color: #4700D8;
+font-size: 2.5rem;
+color: #4BF0C3;
 transition: 0.3s ease-in-out;
 }
 
@@ -98,48 +111,48 @@ transform: rotate(-45deg);
 }
 
 .card-white h2 {
-  color: #4700D8;
+  color: #3ABD9A;
   font-weight: 700;
   text-align: center;
 }
 
 .btn-discover {
-  background-color: #4700d6;
+  background-color: #3ABD9A;
   color: white;
-  border-radius: 4px;
-  padding: 10px 20px;
+  border-radius: 0.4rem;
+  padding: 1rem 2rem;
   transition: 0.4s ease-in;
 }
 
 .btn-discover:hover {
   background-color: rgb(255, 255, 255);
-  color: #4700D8;
-  font-size: 20px;
+  color: #3ABD9A;
+  font-size: 2rem;
   transition: 0.4s ease-in-out;
 }
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0rem;
 }
 
 .list-inline li {
   display: inline;
-  padding: 10px;
-  margin-right: 20px;
+  padding: 1rem;
+  margin-right: 2rem;
 }
 
 .list-inline i {
-  font-size: 50px;
+  font-size: 4.5rem;
   color: rgb(232, 230, 230);
   transition: 0.3s ease-out;
 }
 
 .list-inline i:hover {
-  color: #4700D8;
+  color: #4BF0C3;
   transition: 0.3s ease-in-out;
 }
 
 #introduction p {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
